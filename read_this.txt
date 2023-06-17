@@ -1,0 +1,12 @@
+notes for today:
+
+1. download visual studio code in your laptops
+2. create a folder and open that folder in visual studio code 
+3. create an html file within the folder using the add file icon from visual studio side bar.
+4. start coding :)
+    - play with various tags of html, get to know about various tags of html and their uses.
+    - <img src=''> = the src attribute basically called 'source' which has the path of images 
+        (recall how we have given the path using './cute.png' and './images/cute.png) 
+    - keep saving your file and run the file in the browser by clicking on the file where you've created your html folder.
+
+5. tips: don't try to memorize the things practice as much as you can. You'll start getting it.
