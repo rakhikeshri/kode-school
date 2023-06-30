@@ -17,7 +17,7 @@
   <br />
   <br />
 
-  <input type="submit" />
+  <input type="submit" value="Click here"/>
 </form>
 
 <h2>Info</h2>
@@ -35,17 +35,31 @@
   <label for="other">Other</label>
 
   <br /> <br />
-  <input type="checkbox" id="html" name="course" />
-  <label for="html">Male</label>
 
-  <input type="checkbox" id="css" name="course"/>
-  <label for="css">Female</label>
+  <fieldset>
+    <legend>gender</legend>
+    <input type="checkbox" id="html" name="course" />
+    <label for="html">Male</label>
+  
+    <input type="checkbox" id="css" name="course"/>
+    <label for="css">Female</label>
+  
+    <input type="checkbox" id="js" name="course"/>
+    <label for="js">Other</label>
+  </fieldset>
 
-  <input type="checkbox" id="js" name="course"/>
-  <label for="js">Other</label>
+  <textarea cols="20" rows="10" placeholder="enter your address.."></textarea>
+
+  <select name="Course" id="">
+    <option value="html">HTML</option>
+    <option>CSS</option>
+    <option>JS</option>
+  </select>
 
   <br />
   <br />
   <label for="dob">Date of Birth</label>
   <input type="date" id="dob" />
 </form>
+
+
