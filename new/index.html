@@ -1,35 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body style="background-color: rgb(255, 255, 255);">
-    <h1 style="color: red;">Web Development</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora odit ad repudiandae quod excepturi facilis fugit atque laborum quasi culpa et eaque molestias dolore quas modi nesciunt hic in, repellendus distinctio temporibus. Nobis accusantium nam id eum, molestiae voluptas a.</p>
-    
-    <h1 style="background-color: yellow;">Web Development</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, debitis tempora optio id cupiditate laboriosam beatae iure in natus voluptatibus quia obcaecati libero recusandae. Amet asperiores possimus voluptate hic non, pariatur, voluptatum est laudantium cum eum totam cumque incidunt eius molestiae illo ea delectus distinctio ullam aliquid soluta. Tenetur ex cum deleniti saepe. Dicta atque quaerat, quibusdam non, voluptatum tempore cum sunt rem veritatis exercitationem aperiam aspernatur repudiandae placeat quam labore deserunt corporis voluptatibus nostrum, officia incidunt! Repellat?</p>
-    
-    <h1 style="border: 2px solid green;">Web Development</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, debitis tempora optio id cupiditate laboriosam beatae iure in natus voluptatibus quia obcaecati libero recusandae. Amet asperiores possimus voluptate hic non, pariatur, voluptatum est laudantium cum eum totam cumque incidunt eius molestiae illo ea delectus distinctio ullam aliquid soluta. Tenetur ex cum deleniti saepe. Dicta atque quaerat, quibusdam non, voluptatum tempore cum sunt rem veritatis exercitationem aperiam aspernatur repudiandae placeat quam labore deserunt corporis voluptatibus nostrum, officia incidunt! Repellat?</p>
-    
-    <h1 style="font-size: 40px; color: blue; border: 5px solid tomato; background-color: chartreuse;">Web Development</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, debitis tempora optio id cupiditate laboriosam beatae iure in natus voluptatibus quia obcaecati libero recusandae. Amet asperiores possimus voluptate hic non, pariatur, voluptatum est laudantium cum eum totam cumque incidunt eius molestiae illo ea delectus distinctio ullam aliquid soluta. Tenetur ex cum deleniti saepe. Dicta atque quaerat, quibusdam non, voluptatum tempore cum sunt rem veritatis exercitationem aperiam aspernatur repudiandae placeat quam labore deserunt corporis voluptatibus nostrum, officia incidunt! Repellat?</p>
+
+    <style>
+      h1 {
+        color: rgb(46, 14, 4);
+        background-color: yellowgreen;
+        border: 2px solid blue;
+      }
+
+      #heading1 {
+        color: aqua;
+      }
+
+      #heading2 {
+        color: darkblue;
+      }
+
+      .heading3 {
+        color: rgb(13, 153, 218);
+        background-color: chartreuse;
+      }
+
+      p {
+        font-size: 30px;
+      }
+
+      .para-section{
+        background-color: rgb(245, 239, 159);
+      }
+
+      .para{
+        font-size: 25px;
+      }
+
+      p, h1 {
+        color: crimson;
+      }
+
+      .container{
+        background-color: aquamarine;
+      }
+
+      .para-section p{
+        color: rgb(255, 255, 255);
+        background-color: black;
+      }
+
+    </style>
+  </head>
+  <body style="background-color: rgb(255, 255, 255)">
+    <h1 id="heading1">Web Development</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora odit ad
+      repudiandae quod excepturi facilis fugit atque laborum quasi culpa et
+      eaque molestias dolore quas modi nesciunt hic in, repellendus distinctio
+      temporibus. Nobis accusantium nam id eum, molestiae voluptas a.
+    </p>
+
+    <h1 id="heading2">Web Development</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, debitis
+      tempora optio id cupiditate laboriosam beatae iure in natus voluptatibus
+      quia obcaecati libero recusandae. Amet asperiores possimus voluptate hic
+      non, pariatur, voluptatum est laudantium cum eum totam cumque incidunt
+      eius molestiae illo ea delectus distinctio ullam aliquid soluta. Tenetur
+      ex cum deleniti saepe. Dicta atque quaerat, quibusdam non, voluptatum
+      tempore cum sunt rem veritatis exercitationem aperiam aspernatur
+      repudiandae placeat quam labore deserunt corporis voluptatibus nostrum,
+      officia incidunt! Repellat?
+    </p>
+
+    <h1 class="heading3">Web Development</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, debitis
+      tempora optio id cupiditate laboriosam beatae iure in natus voluptatibus
+      quia obcaecati libero recusandae. Amet asperiores possimus voluptate hic
+      non, pariatur, voluptatum est laudantium cum eum totam cumque incidunt
+      eius molestiae illo ea delectus distinctio ullam aliquid soluta. Tenetur
+      ex cum deleniti saepe. Dicta atque quaerat, quibusdam non, voluptatum
+      tempore cum sunt rem veritatis exercitationem aperiam aspernatur
+      repudiandae placeat quam labore deserunt corporis voluptatibus nostrum,
+      officia incidunt! Repellat?
+    </p>
+
+    <h1 class="heading3">Web Development</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, debitis
+      tempora optio id cupiditate laboriosam beatae iure in natus voluptatibus
+      quia obcaecati libero recusandae. Amet asperiores possimus voluptate hic
+      non, pariatur, voluptatum est laudantium cum eum totam cumque incidunt
+      eius molestiae illo ea delectus distinctio ullam aliquid soluta. Tenetur
+      ex cum deleniti saepe. Dicta atque quaerat, quibusdam non, voluptatum
+      tempore cum sunt rem veritatis exercitationem aperiam aspernatur
+      repudiandae placeat quam labore deserunt corporis voluptatibus nostrum,
+      officia incidunt! Repellat?
+    </p>
 
     <section>
-        <div>
-            <div style="width: 50px">Hi</div>
-        </div>
-        <div style="width: 100px; height: 100px; background-color: yellow;">How are you</div>
-        <div style="width: 100px; height: 100px; background-color: green;">doing?</div>
+      <div class="container">
+        <div style="width: 50px">Hi</div>
+      </div>
+      <div style="width: 100px; height: 100px; background-color: yellow">
+        How are you
+      </div>
+      <div style="width: 100px; height: 100px; background-color: green">
+        doing?
+      </div>
     </section>
 
-</body>
+
+    <section class="para-section container">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, esse? Sed, laudantium blanditiis. Modi esse excepturi nesciunt at libero. Pariatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, esse? Sed, laudantium blanditiis. Modi esse excepturi nesciunt at libero. Pariatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, esse? Sed, laudantium blanditiis. Modi esse excepturi nesciunt at libero. Pariatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, esse? Sed, laudantium blanditiis. Modi esse excepturi nesciunt at libero. Pariatur!</p>
+
+        <!-- <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, esse? Sed, laudantium blanditiis. Modi esse excepturi nesciunt at libero. Pariatur!</p>
+
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, esse? Sed, laudantium blanditiis. Modi esse excepturi nesciunt at libero. Pariatur!</p>
+
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, esse? Sed, laudantium blanditiis. Modi esse excepturi nesciunt at libero. Pariatur!</p>
+
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, esse? Sed, laudantium blanditiis. Modi esse excepturi nesciunt at libero. Pariatur!</p> -->
+      
+    </section>
+
+
+
+  </body>
 </html>
 
 <!-- css -->
 <!-- 
     1. Inline Style
+    2. Internal Style
  -->
+
+<!-- 4 ways we can select in css -->
+<!--   1. tag selector
+        2. id selector
+        3. class selector
+        4. group selector 
+        5. parent selector
+        6. nested parent selector 
+-->
