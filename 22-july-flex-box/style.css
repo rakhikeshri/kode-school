@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+/* styles for navbar starts here------------------------ */
+
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav div {
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+ul li:hover {
+  border-bottom: 2px solid yellow;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.active-page{
+  border-bottom: 2px solid greenyellow;
+}
+
+/* styles for navbar ends here------------------------ */
+
+/* generic styles for pages starts here------------------------ */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.main-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 450px;
+}
+
+.para-container {
+  font-size: 30px;
+  text-align: justify;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 40px;
+}
+
+.card-container {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card-container div {
+  background-color: black;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/*generic styles for pages ends here------------------------ */
+
+
+/* styles for about page starts here------------------------ */
+
+.about{
+  flex-direction: column;
+}
+
+/* styles for about page ends here------------------------ */
+
